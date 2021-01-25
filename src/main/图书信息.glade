@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+      </object>
+    </child>
+  </object>
+  <object class="GtkListStore" id="liststore1">
+    <columns>
+      <!-- column-name gchar1 -->
+      <column type="gchar"/>
+      <!-- column-name gchar2 -->
+      <column type="gchar"/>
+      <!-- column-name gchar3 -->
+      <column type="gchar"/>
+      <!-- column-name gchar4 -->
+      <column type="gchar"/>
+    </columns>
+  </object>
+</interface>
